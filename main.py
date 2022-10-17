@@ -16,3 +16,9 @@ print()
 # ******************************
 # Make your Code
 # ******************************
+print ('Sum of columns: ', end=' ')
+for j in range(cnum):
+    csum = 0
+    for k in range(rnum):
+        csum += numbers[k][j]
+    print (csum, end=' ')
